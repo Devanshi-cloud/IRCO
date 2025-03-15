@@ -1,0 +1,25 @@
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flicker-text {
+    animation: flicker 1.5s infinite alternate ease-in-out;
+}
+
+.neon-glow {
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.neon-hover:hover {
+    text-shadow: 0 0 15px rgba(0, 255, 255, 1);
+}
