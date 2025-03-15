@@ -1,19 +1,22 @@
-import type { NextConfig } from "next"; // ✅ Use 'type' to avoid unnecessary imports
+import type { NextConfig } from "next";
 
 /** @type {NextConfig} */
 const nextConfig = {
-  devIndicators: false,
-  eslint: {
-    ignoreDuringBuilds: true, // ✅ Ignore ESLint errors during production build
+  devIndicators: {
+    buildActivity: false, // ✅ Disables Next.js build activity indicator
   },
-  output: "export", // Enables static HTML export
-  distDir: "out", // Output directory for static files
+  eslint: {
+    ignoreDuringBuilds: true, // ✅ Ignores ESLint errors during production build
+  },
+  output: "export", // ✅ Enables static HTML export for Netlify
+  distDir: "out", // ✅ Output directory for static files
   images: {
-    unoptimized: true, // Fixes image issues (Netlify doesn't support Next.js Image Optimization)
+    unoptimized: true, // ✅ Fixes Next.js image issues on Netlify
   },
 };
 
 export default nextConfig;
+
 
 
 
