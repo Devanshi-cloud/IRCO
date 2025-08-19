@@ -234,7 +234,8 @@ const Footer = () => {
                   View LinkedIn Profile
                 </a>
                 <a
-                  href="https://samarth3101.github.io/samarthpatil.github.io/"
+                  // href="https://samarth3101.github.io/samarthpatil.github.io/"
+                  href="https://samarthpatil.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-3 py-2 sm:px-4 sm:py-2.5 w-full bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-all text-sm sm:text-base"
