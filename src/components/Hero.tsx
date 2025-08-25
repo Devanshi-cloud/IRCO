@@ -66,7 +66,7 @@ const Hero = ({ aboutRef }: HeroProps) => {
                                bg-gradient-to-r from-blue-500 to-purple-500 
                                text-transparent bg-clip-text drop-shadow-lg big-shoulders-stencil"
                 >
-                    {Array.from("WELCOME TO ATHERTECH").map((letter, index) => (
+                    {Array.from("WELCOME TO IRCO").map((letter, index) => (
                         <motion.span
                             key={index}
                             initial={{ opacity: 0, y: 10 }}
@@ -80,8 +80,9 @@ const Hero = ({ aboutRef }: HeroProps) => {
 
                 {/* Subtitle */}
                 <h2 className="mt-2 text-xl sm:text-2xl md:text-3xl font-semibold text-gray-200 neon-text poppins">
-                    PCU's ACM Student Chapter
+                The Office of International Affairs, Bennett University (The Times Group)
                 </h2>
+
 
                 {/* Tagline */}
                 <p className="mt-4 text-md sm:text-lg md:text-xl text-gray-300 poppins">

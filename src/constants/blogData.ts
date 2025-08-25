@@ -1,5 +1,5 @@
 // src/constants/blogData.ts
-export const imageSources = ["/acm.png", "/acm.png", "/acm.png"];
+export const imageSources = ["/bennett.png", "/bennett.png", "/bennett.png"];
 
 export const socialLinks = [
     { href: "https://www.instagram.com/pcu_acm?igsh=MWZtYWYzMzlwOWtwMw==", icon: "FaInstagram", label: "Instagram" },

@@ -19,7 +19,7 @@ const events = [
         id: 1,
         title: "INAUGURATION OF ACM STUDENT CHAPTER",
         date: "January 8, 2025",
-        description: "On January 8, 2025, we, proudly inaugurated the first-ever ACM Student Chapter at Pimpri Chinchwad University, Pune (PCU) – Athertech! 🚀",
+        description: "On January 8, 2025, we, proudly inaugurated the first-ever ACM Student Chapter at Pimpri Chinchwad University, Pune (PCU) – IRCO! 🚀",
         image: "/acmino.jpeg",
     },
     {
@@ -33,7 +33,7 @@ const events = [
         id: 3,
         title: "Coming Soon...",
         date: "TBD",
-        description: "Stay tuned for more exciting events from ATHERTECH!",
+        description: "Stay tuned for more exciting events from IRCO!",
         image: "/coming.png",
     },
 ];

@@ -11,7 +11,7 @@ import ParallaxTilt from "react-parallax-tilt";
 const blogs = [
     {
         title: "Inauguration Event 🎉",
-        description: "A grand launch of ATHERTECH with tech enthusiasts and innovators.",
+        description: "A grand launch of IRCO with tech enthusiasts and innovators.",
         image: "/acmino.jpeg",
         link: "#",
     },

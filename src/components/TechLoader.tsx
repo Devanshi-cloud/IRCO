@@ -42,7 +42,7 @@ export default function TechLoader({ onComplete }: TechLoaderProps) {
           animate={{ x: 0 }}
           transition={{ duration: 1.4, ease: [0.33, 1, 0.68, 1] }}
         >
-          A
+          I
         </motion.span>
         <motion.span
           className="text-transparent bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text drop-shadow-lg"
@@ -50,7 +50,7 @@ export default function TechLoader({ onComplete }: TechLoaderProps) {
           animate={{ y: 0 }}
           transition={{ duration: 1.4, ease: [0.33, 1, 0.68, 1], delay: 0.2 }}
         >
-          C
+          R
         </motion.span>
         <motion.span
           className="text-transparent bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text drop-shadow-lg"
@@ -58,7 +58,15 @@ export default function TechLoader({ onComplete }: TechLoaderProps) {
           animate={{ x: 0 }}
           transition={{ duration: 1.4, ease: [0.33, 1, 0.68, 1], delay: 0.4 }}
         >
-          M
+          C
+        </motion.span>
+        <motion.span
+          className="text-transparent bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text drop-shadow-lg"
+          initial={{ x: "120vh" }}
+          animate={{ x: 0 }}
+          transition={{ duration: 1.4, ease: [0.33, 1, 0.68, 1], delay: 0.4 }}
+        >
+          O
         </motion.span>
       </motion.div>
 

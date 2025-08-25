@@ -30,13 +30,12 @@ const Navbar = () => {
                        shadow-lg border border-white/10 rounded-full flex items-center justify-between 
                        px-5 py-3 z-50 bg-gray-900/50 animate-borderGlowLoop md:px-6"
         >
-            {/* Left Side: Logo + ATHERTECH */}
+            {/* Left Side: Logo + IRCO */}
             <div className="flex items-center gap-3">
-                <Image src="/acm.png" alt="Logo" width={35} height={35} className="rounded-full" />
+                <Image src="/bennett.png" alt="Logo" width={150} height={50} className="rounded-full" />
                 <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-600 
                                 text-transparent bg-clip-text text-lg sm:text-2xl tracking-wide font-bold 
                                 font-shoulders">
-                    ATHERTECH
                 </span>
             </div>
 
@@ -88,7 +87,12 @@ const Navbar = () => {
                         transition={{ duration: 0.5 }}
                         className="flex items-center gap-1 md:gap-2 text-white text-xs sm:text-sm"
                     >
-                        <span>LIVE</span>
+                        
+                <Image src="/times.png" alt="Logo" width={100} height={50} className="rounded-full" />
+                <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-600 
+                                text-transparent bg-clip-text text-lg sm:text-2xl tracking-wide font-bold 
+                                font-shoulders">
+                </span>
                         <motion.span
                             animate={{ scale: [1, 1.4, 1] }}
                             transition={{ repeat: Infinity, duration: 1 }}
@@ -108,7 +112,7 @@ const Navbar = () => {
                         transition={{ duration: 0.5, ease: "easeInOut" }}
                         className={`text-white font-extrabold text-sm sm:text-base ${sToggled ? "tracking-wider" : "tracking-normal"}`}
                     >
-                        {sToggled ? "S" : "𝓢"}  
+                        {sToggled ? "BU" : "𝓑𝓤"}  
                     </motion.span>
                 </button>
 

@@ -125,7 +125,7 @@ const Footer = () => {
             className="w-full max-w-[300px] h-auto object-contain rounded-lg shadow-lg mt-20 sm:mt-40"
           />
           <h3 className="text-lg sm:text-xl font-semibold text-white poppins mt-4 text-center">
-            Join ATHERTECH
+            Join IRCO
           </h3>
           <p className="text-gray-400 text-center mt-2 poppins max-w-xs text-sm sm:text-base">
             Empowering students to innovate, collaborate, and lead the future of technology.
@@ -163,7 +163,7 @@ const Footer = () => {
 
       {/* Copyright Notice */}
       <div className="text-gray-500 text-xs text-center mt-2 poppins">
-        © {new Date().getFullYear()} ATHERTECH. All rights reserved.
+        © {new Date().getFullYear()} IRCO. All rights reserved.
       </div>
 
       {/* Popup About Developer */}

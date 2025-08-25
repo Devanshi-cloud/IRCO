@@ -3,8 +3,57 @@
 import { Canvas } from "@react-three/fiber";
 import { Stars } from "@react-three/drei";
 import { motion } from "framer-motion";
-import { forwardRef, Ref } from "react";
+import { forwardRef, Ref, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
+import { World } from "./globe";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+const sampleArcs = [
+    {
+        order: 1,
+        startLat: 34.0522,
+        startLng: -118.2437,
+        endLat: 40.7128,
+        endLng: -74.006,
+        arcAlt: 0.5,
+        color: "rgba(255, 255, 255, 0.5)",
+    },
+    {
+        order: 2,
+        startLat: 51.5074,
+        startLng: -0.1278,
+        endLat: 35.6895,
+        endLng: 139.6917,
+        arcAlt: 0.7,
+        color: "rgba(255, 255, 255, 0.5)",
+    },
+];
+
+const globeConfig = {
+    pointSize: 4,
+    globeColor: "#062056",
+    showAtmosphere: true,
+    atmosphereColor: "#FFFFFF",
+    atmosphereAltitude: 0.1,
+    emissive: "#062056",
+    emissiveIntensity: 0.1,
+    shininess: 0.9,
+    polygonColor: "rgba(255,255,255,0.7)",
+    ambientLight: "#38bdf8",
+    directionalLeftLight: "#ffffff",
+    directionalTopLight: "#ffffff",
+    pointLight: "#ffffff",
+    arcTime: 1000,
+    arcLength: 0.9,
+    rings: 1,
+    maxRings: 3,
+    initialPosition: { lat: 22.3193, lng: 114.1694 },
+    autoRotate: true,
+    autoRotateSpeed: 0.5,
+};
 
 // Rotating Stars Background
 const RotatingStars = () => (
@@ -16,6 +65,26 @@ const RotatingStars = () => (
 // About Us Component with Forwarded Ref
 const AboutUs = forwardRef((_, ref: Ref<HTMLElement>) => {
     const router = useRouter();
+    const globeContainerRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        if (globeContainerRef.current) {
+            const timeline = gsap.timeline({
+                scrollTrigger: {
+                    trigger: globeContainerRef.current,
+                    start: "top bottom",
+                    end: "top top",
+                    scrub: true,
+                },
+            });
+
+            timeline.fromTo(
+                globeContainerRef.current,
+                { scale: 0.5, opacity: 0 },
+                { scale: 1, opacity: 1, ease: "power2.out" }
+            );
+        }
+    }, []);
 
     return (
         <section
@@ -63,7 +132,7 @@ const AboutUs = forwardRef((_, ref: Ref<HTMLElement>) => {
 
                     <div className="w-20 sm:w-24 h-[2px] bg-gradient-to-r from-blue-500 to-purple-500 my-4"></div>
                     <p className="mt-4 text-base sm:text-lg md:text-xl text-gray-300 poppins">
-                        ATHERTECH is a hub of innovation, where technology and creativity merge
+                        IRCO is a hub of innovation, where technology and creativity merge
                         to build the future. Our mission is to empower students with cutting-edge
                         knowledge, foster collaboration, and drive technological advancements.
                     </p>
@@ -88,17 +157,8 @@ const AboutUs = forwardRef((_, ref: Ref<HTMLElement>) => {
                     transition={{ duration: 1, ease: "easeOut" }}
                     className="lg:w-1/2 flex justify-center"
                 >
-                    <div className="relative w-full max-w-[500px] h-[250px] sm:h-[300px] md:h-[400px] flex justify-center">
-                        <video
-                            src="/acmvid.mp4"
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                            className="w-full h-full object-cover rounded-lg 
-                                       shadow-[0_0_20px_rgba(255,255,255,0.2)] 
-                                       backdrop-blur-sm opacity-90"
-                        />
+                    <div ref={globeContainerRef} className="relative w-full max-w-[500px] h-[400px] flex justify-center">
+                        <World globeConfig={globeConfig} data={sampleArcs} />
                     </div>
                 </motion.div>
             </motion.div>

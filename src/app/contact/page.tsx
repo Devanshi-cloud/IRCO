@@ -146,7 +146,7 @@ export default function Contact() {
                         We at ACM are Here to Assist <br className="hidden sm:block" /> you 24/7*
                     </h2>
                     <p className="text-base sm:text-lg text-gray-300">
-                        At ATHERTECH, we value every inquiry. Whether you need assistance, want to collaborate, or
+                        At IRCO, we value every inquiry. Whether you need assistance, want to collaborate, or
                         simply have a question, we are always ready to help.
                     </p>
 
