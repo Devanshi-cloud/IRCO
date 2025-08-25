@@ -84,10 +84,10 @@ export default function Blogs() {
             <motion.div
                 initial={{ x: "100%" }}
                 animate={{ x: "-100%" }}
-                transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
+                transition={{ repeat: Infinity, duration: 22, ease: "linear" }}
                 className="relative w-full whitespace-nowrap text-center text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 mt-4"
             >
-                📢 Tech Updates • Future of AI • Quantum Computing • Cybersecurity Trends • Web3 & Blockchain Innovations • AR & VR Breakthroughs • Edge Computing & IoT • Neural Networks & Deep Learning • Advancements in Robotics • Metaverse & Digital Twins • 5G & Next-Gen Connectivity • Ethical AI & Tech Regulations • Cyber Warfare & Data Privacy • Open-Source Revolution • Space Tech & Interstellar Exploration • Human-AI Collaboration • Sustainable & Green Tech • Next-Gen Programming Paradigms • Biotechnology & AI Synergy • Autonomous Vehicles & Smart Cities 🚀
+                📢 Our Partners • Harvard University • Stanford University • MIT • Yale University • Princeton University • Columbia University • University of Chicago • University of Pennsylvania • Northwestern University • Duke University • Johns Hopkins University • Caltech • Dartmouth College • Brown University • Cornell University • Vanderbilt University • Rice University • UCLA • UC Berkeley • University of Michigan 🚀
             </motion.div>
 
             {/* 🌟 Glowing Divider Above Footer - Fixed Effect */}
@@ -107,21 +107,15 @@ export default function Blogs() {
                 transition={{ duration: 1, delay: 1 }}
             >
                 {/* 🌐 Social Links */}
-                <div className="flex space-x-6">
-                    {socialLinks.map(({ href, icon: Icon, label }, index) => (
-                        <motion.a
-                            key={index}
-                            href={href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            whileHover={{ scale: 1.2 }}
-                            whileTap={{ scale: 0.9 }}
-                            className="text-gray-400 hover:text-white text-2xl transition-all"
-                            aria-label={label}
-                        >
-                            <Icon />
-                        </motion.a>
-                    ))}
+                <div className="flex justify-center space-x-4 mt-4">
+                  {socialLinks.map((link, index) => {
+                    const Icon = link.icon;
+                    return (
+                      <a key={index} href={link.href} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                        <Icon size={24} />
+                      </a>
+                    );
+                  })}
                 </div>
 
                 {/* ⚡ Footer Text */}

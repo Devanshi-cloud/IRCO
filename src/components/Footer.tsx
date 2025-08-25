@@ -55,14 +55,14 @@ const Footer = () => {
             <div className="flex flex-col w-full sm:w-auto min-w-[280px] max-w-sm">
               <h3 className="text-xl font-semibold text-white poppins">University Address</h3>
               <p className="text-gray-400 mt-2 poppins">
-                PCET's PIMPRI CHINCHWAD UNIVERSITY<br />
-                Gut No. 44, 46, 48, 49 and 50, Sate, Maval, <br />
-                Pune - 412016, Maharashtra
+                Bennett University by The Times Group<br />
+                Plot Nos 8, 11, TechZone 2 <br />
+                Greater Noida, Uttar Pradesh 201310, India
               </p>
               <div className="mt-4 w-full sm:w-[280px] h-[180px] rounded-lg overflow-hidden shadow-lg border border-blue-500">
                 <iframe
                   className="w-full h-full border-0 rounded-lg shadow-lg"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7556.217985322926!2d73.60742!3d18.748668!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ad005ff8e799%3A0x198e3cd214f8a72e!2sPCU%20Campus!5e0!3m2!1sen!2sin!4v1741944296241!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/place/Bennett+University/@28.4506465,77.5841978,834m/data=!3m2!1e3!4b1!4m6!3m5!1s0x390cbf94deb6bc39:0x7ba6bedc9a2b537f!8m2!3d28.4506465!4d77.5841978!16s%2Fg%2F11c3wvm4q_?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
