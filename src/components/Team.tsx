@@ -14,13 +14,13 @@ const RotatingStars = () => (
 
 // Team Members Data with respective links
 const teamMembers = [
-  { id: 1, name: "SOHAM SUPEKAR", role: "President", image: "/soham.jpg", linkedin: "https://www.linkedin.com/in/sohamsupekar24/", github: "https://github.com/SOHAMSUPEKAR24", instagram: "https://www.instagram.com/sohamsupekar_24?igsh=Nm9idWtkMjVmbDRt&utm_source=qr" },
-  { id: 2, name: "SAMARTH PATIL", role: "Vice President", image: "/samarth.jpg", linkedin: "https://www.linkedin.com/in/samarth-patil-3101spp/", github: "https://github.com/samarth3101", instagram: "https://www.instagram.com/samarthpatil0131?igsh=bWN6OHJ5dHVpc2Js" },
+  { id: 1, name: "Raman Gupta", role: "President", image: "/profdum.png", linkedin: "https://www.linkedin.com/in/sohamsupekar24/", github: "https://github.com/SOHAMSUPEKAR24", instagram: "https://www.instagram.com/sohamsupekar_24?igsh=Nm9idWtkMjVmbDRt&utm_source=qr" },
+  { id: 2, name: "Devanshi Jaiswal", role: "Vice President", image: "/profdum.png", linkedin: "https://www.linkedin.com/in/samarth-patil-3101spp/", github: "https://github.com/samarth3101", instagram: "https://www.instagram.com/samarthpatil0131?igsh=bWN6OHJ5dHVpc2Js" },
   { id: 3, name: "TANAYA PHATANGE", role: "Vice President", image: "/profdum.png", linkedin: "#", github: "#", instagram: "#" },
-  { id: 4, name: "SHREYAS BARAVKAR", role: "TREASURER", image: "/shreyas.jpg", linkedin: "https://www.linkedin.com/in/shreyas-baravkar-891447289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", github: "https://github.com/Shreyas2511", instagram: "#" },
-  { id: 5, name: "NEHAL GUPTA", role: "VOLUNTEER HEAD", image: "/nehal.jpg", linkedin: "https://www.linkedin.com/in/nehal-nilesh-gupta", github: "https://github.com/Nehal072", instagram: "#" },
-  { id: 6, name: "JANHAVEE SINGH", role: "EVENT HEAD", image: "/jahnvi.jpg", linkedin: "https://www.linkedin.com/in/janhavee-singh-94658b292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", github: "https://github.com/janhavee1409", instagram: "https://www.instagram.com/janv.e?igsh=MXhkaGVrMTNkaWFuZw==" },
-  { id: 7, name: "NAMRATA SHINDE", role: "PROMOTION HEAD", image: "/namrata.jpg", linkedin: "linkedin.com/in/namratapshinde/", github: "#", instagram: "#" },
+  { id: 4, name: "SHREYAS BARAVKAR", role: "TREASURER", image: "/profdum.png", linkedin: "https://www.linkedin.com/in/shreyas-baravkar-891447289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", github: "https://github.com/Shreyas2511", instagram: "#" },
+  { id: 5, name: "NEHAL GUPTA", role: "VOLUNTEER HEAD", image: "/profdum.png", linkedin: "https://www.linkedin.com/in/nehal-nilesh-gupta", github: "https://github.com/Nehal072", instagram: "#" },
+  { id: 6, name: "JANHAVEE SINGH", role: "EVENT HEAD", image: "/profdum.png", linkedin: "https://www.linkedin.com/in/janhavee-singh-94658b292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", github: "https://github.com/janhavee1409", instagram: "https://www.instagram.com/janv.e?igsh=MXhkaGVrMTNkaWFuZw==" },
+  { id: 7, name: "NAMRATA SHINDE", role: "PROMOTION HEAD", image: "/profdum.png", linkedin: "linkedin.com/in/namratapshinde/", github: "#", instagram: "#" },
   { id: 8, name: "KARTHIK NAMBIAR", role: "TECHNICAL HEAD", image: "/profdum.png", linkedin: "https://www.linkedin.com/in/karthik-nambiar-739957289/", github: "https://github.com/KarthikNambiar135", instagram: "https://www.instagram.com/karrthikk._.1/" },
   { id: 9, name: "TANMAY SHINDE", role: "DESIGN HEAD", image: "/profdum.png", linkedin: "#", github: "#", instagram: "#" }, 
   { id: 10, name: "VAISHNAVI SALUKE", role: "DOCUMENTATION HEAD", image: "/profdum.png", linkedin: "#", github: "#", instagram: "#" },

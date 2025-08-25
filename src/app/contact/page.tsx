@@ -143,7 +143,7 @@ export default function Contact() {
                     className="w-full max-w-md flex flex-col gap-6 px-4 sm:px-6 text-center sm:text-left py-10 sm:py-16"
                 >
                     <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-600 text-transparent bg-clip-text">
-                        We at ACM are Here to Assist <br className="hidden sm:block" /> you 24/7*
+                        We at IAS are Here to Assist <br className="hidden sm:block" /> you 24/7*
                     </h2>
                     <p className="text-base sm:text-lg text-gray-300">
                         At IRCO, we value every inquiry. Whether you need assistance, want to collaborate, or
@@ -158,7 +158,7 @@ export default function Contact() {
                         <a href="https://github.com/samarth3101" className="text-3xl hover:text-indigo-500 transition-all">
                             <FaGithub />
                         </a>
-                        <a href="https://www.instagram.com/pcu_acm?igsh=MWZtYWYzMzlwOWtwMw==" className="text-3xl hover:text-purple-500 transition-all">
+                        <a href="https://www.instagram.com/pcu_IAS?igsh=MWZtYWYzMzlwOWtwMw==" className="text-3xl hover:text-purple-500 transition-all">
                             <FaInstagram />
                         </a>
                         <a href="https://www.linkedin.com/school/pimpri-chinchwad-university/" className="text-3xl hover:text-blue-400 transition-all">

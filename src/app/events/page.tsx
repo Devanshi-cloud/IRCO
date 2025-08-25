@@ -21,12 +21,12 @@ const transition = {
 const events = [
     {
         year: "2025",
-        title: "INAUGRATION OF ACM STUDENT CHAPTER",
-        description: "On January 8, 2025, we proudly inaugurated the first-ever ACM Student Chapter at Pimpri Chinchwad University, Pune (PCU) – IRCO! 🚀",
-        image: "/acmino.jpeg",
+        title: "INAUGRATION OF IAS STUDENT CHAPTER",
+        description: "On January 8, 2025, we proudly inaugurated the first-ever IAS Student Chapter at Pimpri Chinchwad University, Pune (PCU) – IRCO! 🚀",
+        image: "/IASino.jpeg",
         details: [
-            "1.	Historic Milestone – The inauguration of IRCO marked a significant achievement for PCU, establishing a platform for students to collaborate, innovate, and explore emerging technologies under the ACM banner.",
-            "2.	Grand Launch Event – The ceremony featured esteemed faculty, industry experts, and ACM representatives who shared insights on the importance of ACM and how the chapter would contribute to the tech community.",
+            "1.	Historic Milestone – The inauguration of IRCO marked a significant achievement for PCU, establishing a platform for students to collaborate, innovate, and explore emerging technologies under the IAS banner.",
+            "2.	Grand Launch Event – The ceremony featured esteemed faculty, industry experts, and IAS representatives who shared insights on the importance of IAS and how the chapter would contribute to the tech community.",
             "3.	Networking & Collaboration – The event provided students with an opportunity to connect with professionals, engage in discussions on cutting-edge technology, and gain insights into career growth within the field of computing.",
         ],
     },
@@ -45,12 +45,12 @@ const events = [
 
 const socialLinks = [
     { href: "https://twitter.com/PCUPuneOfficial", icon: FaTwitter, label: "Twitter" },
-    { href: "https://www.instagram.com/pcu_acm?igsh=MWZtYWYzMzlwOWtwMw==", icon: FaInstagram, label: "Instagram" },
+    { href: "https://www.instagram.com/pcu_IAS?igsh=MWZtYWYzMzlwOWtwMw==", icon: FaInstagram, label: "Instagram" },
     { href: "https://www.linkedin.com/school/pimpri-chinchwad-university/", icon: FaLinkedin, label: "LinkedIn" },
     { href: "https://github.com/samarth3101", icon: FaGithub, label: "GitHub" },
 ];
 
-const imageSources = ["/acmino.jpeg", "/zcloud.jpeg", "/zsca.jpeg", "/acmrawan.webp", "/zssam.jpeg", "/samraw.png", "/sohraw.png"];
+const imageSources = ["/IASino.jpeg", "/zcloud.jpeg", "/zsca.jpeg", "/IASrawan.webp", "/zssam.jpeg", "/samraw.png", "/sohraw.png"];
 
 export default function EventsPage() {
     const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -333,7 +333,7 @@ export default function EventsPage() {
                 <div className="text-center">
                     <p>© 2025 Immersive Events. All rights reserved.</p>
                     <p className="text-xs text-gray-500">
-                        Built by <span className="text-white font-semibold hover:text-blue-400 cursor-pointer">Samarth Patil</span>
+                        Built by <span className="text-white font-semibold hover:text-blue-400 cursor-pointer">Devanshi Jaiswal</span>
                     </p>
                 </div>
             </motion.footer>

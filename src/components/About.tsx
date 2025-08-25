@@ -157,7 +157,7 @@ const AboutUs = forwardRef((_, ref: Ref<HTMLElement>) => {
                     transition={{ duration: 1, ease: "easeOut" }}
                     className="lg:w-1/2 flex justify-center"
                 >
-                    <div ref={globeContainerRef} className="relative w-full max-w-[500px] h-[400px] flex justify-center">
+                    <div ref={globeContainerRef} className="relative w-full max-w-[600px] h-[500px] flex justify-center">
                         <World globeConfig={globeConfig} data={sampleArcs} />
                     </div>
                 </motion.div>

@@ -76,7 +76,7 @@ const Footer = () => {
               <div className="flex gap-6 mt-4">
                 {[
                   { href: "https://twitter.com/PCUPuneOfficial", icon: FaTwitter, label: "Twitter" },
-                  { href: "https://www.instagram.com/pcu_acm?igsh=MWZtYWYzMzlwOWtwMw==", icon: FaInstagram, label: "Instagram" },
+                  { href: "https://www.instagram.com/pcu_IAS?igsh=MWZtYWYzMzlwOWtwMw==", icon: FaInstagram, label: "Instagram" },
                   { href: "https://www.linkedin.com/school/pimpri-chinchwad-university/", icon: FaLinkedin, label: "LinkedIn" },
                   { href: "https://github.com/samarth3101", icon: FaGithub, label: "GitHub" }
                 ].map(({ href, icon: Icon, label }, index) => (
@@ -156,7 +156,7 @@ const Footer = () => {
             onClick={() => setShowPopup(true)}
             className="text-white font-bold cursor-pointer hover:text-blue-500 transition-all"
           >
-            Samarth Patil
+            Devanshi Jaiswal
           </span>
         </p>
       </div>
@@ -198,13 +198,13 @@ const Footer = () => {
               {/* Profile Image */}
               <img
                 src="/samarthprof.jpeg"
-                alt="Samarth Patil"
+                alt="Devanshi Jaiswal"
                 className="w-24 h-32 sm:w-32 sm:h-42 rounded-full border-4 border-blue-500 shadow-lg"
               />
 
               {/* Title */}
               <h2 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text mt-4">
-                Samarth Patil 🚀
+                Devanshi Jaiswal 🚀
               </h2>
 
               {/* Short Intro */}

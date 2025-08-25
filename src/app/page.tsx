@@ -6,6 +6,7 @@ import AboutUs from "@/components/About";
 import Events from "@/components/Events";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
+import WorldMap from "@/components/world-map";
 import TechLoader from "@/components/TechLoader"; // Import Loader
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
                 <>
                     <Hero aboutRef={aboutRef} />
                     <AboutUs ref={aboutRef} />
+                    <WorldMap />
                     <Events />
                     <Team />
                     <Footer />

@@ -1,4 +1,4 @@
-# IRCO_acm_off_web
+# IRCO_IAS_off_web
 
-This is official website for PCET's PCU ACM Student chapter
-explore :- https://acmpcu.netlify.app/
+This is official website for PCET's PCU IAS Student chapter
+explore :- https://IASpcu.netlify.app/

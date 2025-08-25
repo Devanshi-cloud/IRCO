@@ -17,16 +17,16 @@ const RotatingStars = () => (
 const events = [
     {
         id: 1,
-        title: "INAUGURATION OF ACM STUDENT CHAPTER",
+        title: "INAUGURATION OF IAS STUDENT CHAPTER",
         date: "January 8, 2025",
-        description: "On January 8, 2025, we, proudly inaugurated the first-ever ACM Student Chapter at Pimpri Chinchwad University, Pune (PCU) – IRCO! 🚀",
-        image: "/acmino.jpeg",
+        description: "On January 8, 2025, we, proudly inaugurated the first-ever IAS Student Chapter at Pimpri Chinchwad University, Pune (PCU) – IRCO! 🚀",
+        image: "/IASino.jpeg",
     },
     {
         id: 2,
         title: "Zscaler Cloud Security Workshop",
         date: "March 6, 2025",
-        description: "🚀 Empowering the Future with Cloud Security! 🔐 The Tech Camp on Cloud Security, organized by ACM, IEEE, IIC, and PCU, was a phenomenal success!",
+        description: "🚀 Empowering the Future with Cloud Security! 🔐 The Tech Camp on Cloud Security, organized by IAS, IEEE, IIC, and PCU, was a phenomenal success!",
         image: "/zcloud.jpeg",
     },
     {

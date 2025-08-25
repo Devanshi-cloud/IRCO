@@ -15,16 +15,16 @@ const SpaceBackground = () => (
 );
 
 const teamMembers = [
-    { id: 1, name: "Soham Supekar", role: "President", image: "/soham.jpg" },
-    { id: 2, name: "Samarth Patil", role: "Vice President", image: "/samarth.jpg" },
+    { id: 1, name: "Raman Gupta", role: "President", image: "/profdum.png" },
+    { id: 2, name: "Devanshi Jaiswal", role: "Vice President", image: "/profdum.png" },
     { id: 3, name: "Tanaya Phatangare", role: "Vice President", image: "/profdum.png" },
-    { id: 4, name: "Shreyas Baravkar", role: "Treasurer", image: "/shreyas.jpg" },
+    { id: 4, name: "Shreyas Baravkar", role: "Treasurer", image: "/profdum.png" },
     { id: 5, name: "Karthik Nambiar", role: "Technical Head", image: "/profdum.png" },
     { id: 6, name: "Tanmay Shinde", role: "Design Lead", image: "/profdum.png" },
-    { id: 7, name: "Janhavee Singh", role: "Event Head", image: "/jahnvi.jpg" },
-    { id: 8, name: "Namrata Shinde", role: "Promotion Head", image: "/namrata.jpg" },
+    { id: 7, name: "Janhavee Singh", role: "Event Head", image: "/profdum.png" },
+    { id: 8, name: "Namrata Shinde", role: "Promotion Head", image: "/profdum.png" },
     { id: 9, name: "Vaishnavi Salunke", role: "Documentation Head", image: "/profdum.png" },
-    { id: 10, name: "Nehal Gupta", role: "Volunter Head", image: "/nehal.jpg" },
+    { id: 10, name: "Nehal Gupta", role: "Volunter Head", image: "/profdum.png" },
     { id: 11, name: "Mitali Dahiphale", role: "Member - Treasurer", image: "/profdum.png" },
     { id: 12, name: "Somesh Jape", role: "Member - Treasurer", image: "/profdum.png" },
     { id: 13, name: "Shivank Wadke", role: "Member - Technical", image: "/profdum.png" },
@@ -159,7 +159,7 @@ const Footer = () => {
                     {[
                         { Icon: FaLinkedin, href: "https://www.linkedin.com/school/pimpri-chinchwad-university/" },
                         { Icon: FaGithub, href: "https://github.com/samarth3101" },
-                        { Icon: FaInstagram, href: "https://www.instagram.com/pcu_acm?igsh=MWZtYWYzMzlwOWtwMw==" }
+                        { Icon: FaInstagram, href: "https://www.instagram.com/pcu_IAS?igsh=MWZtYWYzMzlwOWtwMw==" }
                     ].map(({ Icon, href }, index) => (
                         <motion.a
                             key={index}
@@ -177,7 +177,7 @@ const Footer = () => {
 
                 <p>© 2025 Immersive Events. All rights reserved.</p>
                 <p className="text-gray-500">
-                    Built by <span className="text-white font-semibold hover:text-blue-400 cursor-pointer">Samarth Patil</span>
+                    Built by <span className="text-white font-semibold hover:text-blue-400 cursor-pointer">Devanshi Jaiswal</span>
                 </p>
             </motion.footer>
         </div>
